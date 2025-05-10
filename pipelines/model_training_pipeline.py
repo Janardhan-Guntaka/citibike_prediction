@@ -14,7 +14,7 @@ from src.inference import (
 from src.pipeline_utils import get_pipeline
 
 print(f"Fetching data from group store ...")
-ts_data = fetch_days_data(28)
+ts_data = fetch_days_data(180)
 print(len(ts_data))
 print(f"Transforming to ts_data ...")
 
